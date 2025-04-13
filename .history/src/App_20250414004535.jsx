@@ -12,18 +12,13 @@ import oneservice from './assets/oneservice.jpg';
 import twoservice from './assets/twoservice.jpg';
 import threeservice from './assets/threeservice.jpg';
 import marci from './assets/aboutmarci.jpg';
-import carouone from './assets/carouone.jpg';
-import caroutwo from './assets/caroutwo.jpg';
-import carouthree from './assets/carouthree.jpg';
-import caroufour from './assets/caroufour.jpg';
-import caroufive from './assets/caroufive.jpg';
-import carousix from './assets/carousix.jpg';
-import carouseven from './assets/carouseven.jpg';
+
 
 function Homepage() {
-  const images = [carouone,caroutwo,carouthree,caroufour,caroufive
-    ,carousix,carouseven];
-   
+  const images = ["./src/assets/carouone.jpg","./src/assets/caroutwo.jpg",
+    "./src/assets/carouthree.jpg","./src/assets/caroufour.jpg","./src/assets/caroufive.jpg",
+    "./src/assets/carousix.jpg","./src/assets/carouseven.jpg"
+   ]
 
 
  

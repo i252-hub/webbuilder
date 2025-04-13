@@ -21,9 +21,10 @@ import carousix from './assets/carousix.jpg';
 import carouseven from './assets/carouseven.jpg';
 
 function Homepage() {
-  const images = [carouone,caroutwo,carouthree,caroufour,caroufive
-    ,carousix,carouseven];
-   
+  const images = ["./src/assets/carouone.jpg","./src/assets/caroutwo.jpg",
+    "./src/assets/carouthree.jpg","./src/assets/caroufour.jpg","./src/assets/caroufive.jpg",
+    "./src/assets/carousix.jpg","./src/assets/carouseven.jpg"
+   ]
 
 
  

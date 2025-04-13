@@ -5,25 +5,13 @@ import firstbrand from './assets/firstbrand.jpg';
 import secondbrand from './assets/secondbrand.jpg';
 import thirdbrand from './assets/thirdbrand.jpg';
 import fourthbrand from './assets/fourthbrand.jpg';
-import firstimage from './assets/firstimage.jpg';
-import secondimage from './assets/secondimage.jpg';
-import thirdimage from './assets/thirdimage.jpg';
-import oneservice from './assets/oneservice.jpg';
-import twoservice from './assets/twoservice.jpg';
-import threeservice from './assets/threeservice.jpg';
-import marci from './assets/aboutmarci.jpg';
-import carouone from './assets/carouone.jpg';
-import caroutwo from './assets/caroutwo.jpg';
-import carouthree from './assets/carouthree.jpg';
-import caroufour from './assets/caroufour.jpg';
-import caroufive from './assets/caroufive.jpg';
-import carousix from './assets/carousix.jpg';
-import carouseven from './assets/carouseven.jpg';
+
 
 function Homepage() {
-  const images = [carouone,caroutwo,carouthree,caroufour,caroufive
-    ,carousix,carouseven];
-   
+  const images = ["./src/assets/carouone.jpg","./src/assets/caroutwo.jpg",
+    "./src/assets/carouthree.jpg","./src/assets/caroufour.jpg","./src/assets/caroufive.jpg",
+    "./src/assets/carousix.jpg","./src/assets/carouseven.jpg"
+   ]
 
 
  
@@ -54,17 +42,17 @@ function Homepage() {
       </div>
 
 <div className='brands'>
-  <div className='brandcontainer'><img className="brand" src={firstbrand}/></div>
-  <div className='brandcontainer'><img className="brand" src={secondbrand}/></div>
-  <div className='brandcontainer'><img className="brand" src={thirdbrand}/></div>
-  <div className='brandcontainer'><img className="brand" src={fourthbrand}/></div>
+  <div className='brandcontainer'><img className="brand" src="./src/assets/firstbrand.jpg"/></div>
+  <div className='brandcontainer'><img className="brand" src="./src/assets/secondbrand.jpg"/></div>
+  <div className='brandcontainer'><img className="brand" src="./src/assets/thirdbrand.jpg"/></div>
+  <div className='brandcontainer'><img className="brand" src="./src/assets/fourthbrand.jpg"/></div>
 </div>
       <section className='sectiontwo'>
         <div className='sectdiv'>
           <div className='sectiondiv'><p className='sectiontwotitle'>GET IT SOLD</p></div></div>
 <div className='box one'>
 <div className='firstbox'>
-  <img src={firstimage} className='firstimg'/>
+  <img src="./src/assets/firstimage.jpg" className='firstimg'/>
 </div>
 <div className='secondbox'>
   <p className='secondboxtitle'>Top Residential Sales Last 5 Years</p>
@@ -81,13 +69,13 @@ excel in our market. Our clients deserve our best, & we want to make sure our
   <p className='secondboxsubtitle'>Get it SOLD! We exhaust every avenue to ensure our listings are at the fingertips of every possible buyer, getting you top dollar for your home.</p>
 </div>
 <div className='firstbox boxone'>
-<img src={secondimage} className='firstimg'/>
+<img src="./src/assets/secondimage.jpg" className='firstimg'/>
 
 </div>
 </div>
 <div className='box three'>
 <div className='firstbox'>
-<img src={thirdimage} className='firstimg'/>
+<img src="./src/assets/firstimage.jpg" className='firstimg'/>
 
 </div>
 <div  className='secondbox'>
@@ -103,7 +91,7 @@ excel in our market. Our clients deserve our best, & we want to make sure our
   <div className='service'>
   <div className='serviceone'>
     <div className='servicebox'>
-      <img className='serv' src={oneservice}/>
+      <img className='serv' src="./src/assets/oneservice.jpg"/>
     </div>
     <div className='serviceboxbottom'>
       <p className='servicebottitle'>Real Estate Done Right</p>
@@ -114,7 +102,7 @@ excel in our market. Our clients deserve our best, & we want to make sure our
   </div>
   <div className='servicetwo'>
   <div className='servicebox'>
-  <img className='serv' src={twoservice}/>
+  <img className='serv' src="./src/assets/twoservice.jpg"/>
   </div>
   <div className='serviceboxbottom'>
     <p  className='servicebottitle'>Commercial & Residential</p>
@@ -124,7 +112,7 @@ excel in our market. Our clients deserve our best, & we want to make sure our
   </div>
   <div className='servicethree'>
   <div className='servicebox'>
-  <img className='serv' src={threeservice}/>
+  <img className='serv' src="./src/assets/threeservice.jpg"/>
   </div>
   <div className='serviceboxbottom'>
     <p  className='servicebottitle'>Rely on Expertise</p>
@@ -138,7 +126,7 @@ excel in our market. Our clients deserve our best, & we want to make sure our
 </section>
 
 <section className='about'>
-  <div className='aboutctn'><img src={marci} className='abt'/></div>
+  <div className='aboutctn'><img src="./src/assets/aboutmarci.jpg" className='abt'/></div>
   <div className='abtdesc'>
     <p className='abttitle'>MARCI METZGER</p>
     <p className='abtsubtitle'>REALTOR FOR NEARLY 3 DECADES!</p>
