@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background{
+  background: url("./assets/falls.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+.cover{
+  position: absolute;
+  height:100%;
+  width:100%;
+  background: #5a5d6251;
+  z-index: 2;
+}
+
+nav{
+  position: absolute;
+  z-index: 3;
+  height:8rem;
+  background: #ffffff;
+  width:100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.bookmark{
+  width: 12%;
+  height:12em;
+  background: #549660;
+  position: relative;
+  top:5em;
+  left:80%;
+}
+.conimg{
+  width:30%;
+  display: flex;
+  justify-content: center;
+}
+.logo{
+  width:20rem;
+}
+ul{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3em;
+}
+li{
+  list-style: none;
+  position: relative;
+  top:1rem;
+}
+

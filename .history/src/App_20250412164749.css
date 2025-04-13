@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background{
+  background: url("./assets/falls.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+.cover{
+  position: absolute;
+  height:100%;
+  width:100%;
+  background: #8d929a51;
+}
+
+nav{
+  grid-template-columns: repeat(1,2fr);
+  width:100%;
+  height:10rem;
+  
+}
+
+nav:first-child{
+  background: #03316d;
+}
+

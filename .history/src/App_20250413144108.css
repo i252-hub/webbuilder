@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+}
+.background{
+  background: url("./assets/falls.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350vh;
+  width: 100vw;
+  background-attachment: fixed;
+}
+
+.cover{
+  position: absolute;
+  height:350%;
+  width:100vw;
+  background: #5a5d6251;
+  z-index: 2;
+}
+
+nav{
+  position: absolute;
+  z-index: 3;
+  height:8rem;
+  background: #ffffff;
+  width:100vw;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.bookmark{
+  position: relative;
+  left:70%;
+  bottom: 6.5em;
+  width: 0px;
+  height: 170px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  border-bottom: 25px solid transparent;
+  border-top: none;
+  border-left: 50px solid #549660;
+  border-right: 50px solid #549660;
+}
+.conimg{
+  width:30%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top:1rem;
+}
+.logo{
+  width:20rem;
+}
+ul{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3em;
+}
+li{
+  list-style: none;
+  position: relative;
+  top:1rem;
+}
+.hometext{
+  width:100%;
+  height:80%;
+  position: relative;
+bottom:35em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap:1rem;
+}
+.title{
+  font-size: 1.5rem;
+}
+.subtitle{
+  font-size: 3.5rem;
+}
+.desc{
+  font-size: 1.2rem;
+}
+
+.title,.subtitle,.desc{
+  color: white;
+}
+
+.sectiontwo{
+  width:100vw;
+  height:250vh;
+background: transparent;
+position: relative;
+bottom:70em;
+}
+
+.box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width:100%;
+}
+.firstbox{
+  box-shadow: rgb(38, 39, 40) 0px 20px 30px -10px;
+  width:100%;
+  position: relative;
+}
+.firstimg{
+  width:100%;
+}
+.secondbox{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  color:black;
+  box-shadow: rgb(38, 39, 40) 0px 20px 30px -10px;
+position: relative;
+right:3em;
+top:5em;
+}
+.secondboxtitle{
+  font-size: 2rem;
+}
+.secondboxsubtitle{
+  font-size: 1.3rem;
+  width:80%;
+  padding-top: 1em;
+  line-height: 1.5;
+}
+.sectiontwotitle{
+  font-size: 2.5rem;
+  color:white;
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.box.two{
+  padding-top: 3.5em;
+}
+
+.box.three{
+  padding-top: 8.5em;
+
+}

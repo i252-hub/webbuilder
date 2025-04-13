@@ -1,0 +1,829 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+}
+.background{
+  background: url("./assets/falls.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450vh;
+  width: 100vw;
+  background-attachment: fixed;
+}
+
+.cover{
+  position: absolute;
+  height:450%;
+  width:100vw;
+  background: #5a5d6251;
+  z-index: 2;
+}
+
+nav{
+  position: absolute;
+  z-index: 3;
+  height:8rem;
+  background: #ffffff;
+  width:100vw;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.bookmark{
+  position: relative;
+  left:70%;
+  bottom: 6.5em;
+  width: 0px;
+  height: 170px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  border-bottom: 25px solid transparent;
+  border-top: none;
+  border-left: 50px solid #549660;
+  border-right: 50px solid #549660;
+}
+.conimg{
+  width:30%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top:1rem;
+}
+.logo{
+  width:20rem;
+}
+ul{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3em;
+}
+li{
+  font-weight: lighter;
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  list-style: none;
+  position: relative;
+  top:1rem;
+}
+.hometext{
+  font-weight: lighter;
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  width:100%;
+  height:80%;
+  position: relative;
+bottom:50em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap:1rem;
+  z-index: 5;
+}
+.title{
+  font-size: 1.5rem;
+}
+.subtitle{
+  font-size: 3.5rem;
+}
+.desc{
+  font-size: 1.2rem;
+}
+
+.title,.subtitle,.desc{
+  color: white;
+}
+
+.sectiontwo{
+  width:100vw;
+  height:250vh;
+background: transparent;
+position: relative;
+bottom:90em;
+
+}
+.sectiontwotitle{
+  font-weight: lighter;
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+
+
+
+}
+.sectiondiv{
+  position: absolute;
+
+  top:-10em;
+  
+}
+.sectdiv{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 5;
+}
+
+.searchnav{
+  width:10%;
+z-index: 14;
+position: absolute;
+
+}
+.searchnavcon{
+  width:100%;
+  position: absolute;
+  bottom:2.5em;
+  left: 80%;
+  z-index: 9999 !important;
+}
+
+.box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width:100%;
+}
+.firstbox{
+  box-shadow: rgb(38, 39, 40) 0px 20px 30px -10px;
+  width:100%;
+  position: relative;
+  left:3em;
+}
+.firstimg{
+  width:100%;
+}
+.secondbox{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  color:black;
+  box-shadow: rgb(38, 39, 40) 0px 20px 30px -10px;
+position: relative;
+right:3em;
+top:5em;
+z-index: 5;
+}
+.secondboxtitle{
+  padding-top: 1em;
+  font-size: 2rem;
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: light;
+  font-style: normal;
+  color:#549660;
+}
+.secondboxsubtitle{
+  font-size: 1.3rem;
+  font-weight: lighter;
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  width:80%;
+  padding-top: 1em;
+  line-height: 1.5;
+}
+.sectiontwotitle{
+  font-size: 2.5rem;
+  color:white;
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.box.two{
+  padding-top: 10.5em;
+}
+.secondbox.boxtwo{
+  position: relative;
+  left:3em;
+}
+.firstbox.boxone{
+  position: relative;
+  left:-3em;
+}
+.box.three{
+  padding-top: 8.5em;
+
+}
+.brands{
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width:100%;
+  height:12em;
+  position: relative;
+  bottom:103em;
+  display: flex;
+  justify-content: center;
+  gap:5em;
+  z-index: 8;
+}
+.brandcontainer{
+  width:7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand{
+  width:100%;
+  height:50%;
+}
+.service{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width:100%;
+  height:100%;
+}
+.servicebox{
+  width: 100%;
+  height:50%;
+  padding:1em;
+  display: flex;
+  justify-content: center;
+}
+.serv{
+  width:90%;
+  height:120%;
+  object-fit: cover;
+  border-radius: 80%;
+}
+
+
+.servicesection{
+
+ width:100%;
+  height:100vh;
+  background: white;
+}
+
+.servtitle{
+  padding-top: 2em;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.servtitle p{
+  font-size: 2.5em;
+  font-weight: lighter;
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color:#549660;
+
+}
+.serviceboxbottom{
+  width: 100%;
+  height:50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servicebottitle{
+  font-size: 2em;
+  font-weight: lighter;
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.servbotsubtitle{
+  padding-top: 1em;
+  font-size: 1em;
+  font-weight: lighter;
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  width:80%;
+  text-align: center;
+}
+
+.search{
+  position: relative;
+  top:5em;
+  width: 100%;
+  height: 100vh;
+  background: white;
+}
+.searchcon{
+  width: 100%;
+  height: 100%;
+  background: url("./src/assets/house.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom-right-radius: 55%;
+  border-bottom-left-radius: 15%;
+
+}
+.searchimg{
+  
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 55%;
+  border-bottom-left-radius: 15%;
+}
+
+form{
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(236, 233, 233, 0.09) 0px 4px 2px, rgba(227, 225, 225, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;  height: 50%;
+  width:60%;
+  position: relative;
+  left:1em;
+ top:12em;
+ z-index: 12;
+}
+.covershadow{
+  background: rgba(0, 0, 0, 0.281);
+  z-index: 3;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 55%;
+  border-bottom-left-radius: 15%;
+}
+fieldset{
+  width: 30%;
+  border: none;
+}
+legend{
+  font-size: 1.1em;
+}
+select{
+  width: 100%;
+  height: 2em;
+}
+.searchh{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.searchhtwo{
+  padding-top: 1em;
+  display: flex;
+  align-items: center;
+  gap:5px;
+  margin-left: 1.5em;
+}
+input{
+  width: 70%;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.searchlist{
+  font-size: 2em;
+  color: #549660;
+  font-weight: lighter;
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-left: 1rem;
+  padding-bottom: 1em;
+}
+.searchtwo{
+  width: 70%;
+}
+.price{
+  position: relative;
+  top:5px;
+}
+.btncon{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2em;
+  position: relative;
+  top:5em;
+}
+button{
+ padding: 12px 1.5rem 12px 1.5rem;
+ border-radius: 5rem;
+ border: none;
+ background: #549660;
+ color: white;
+}
+
+.about{
+  width: 100%;
+  height: 100vh;
+  background: #161515;
+  position: relative;
+  top:5em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.aboutctn{
+  height:100%;
+  width: 100%;
+  padding: 6em;
+  position: relative;
+}
+.abt{
+  width: 100%;
+  height: 100%;
+}
+.abtdesc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  gap:1rem;
+}
+.abttitle{
+  font-size: 2.5rem;
+}
+
+.abttest{
+  font-style: italic;
+  width: 90%
+}
+.carousel{
+  width: 100%;
+  height: 100vh;
+}
+.slide{
+  width: 50%;
+  padding: 2em;
+}
+.slideshow-container{
+  padding-top: 12em;
+}
+.caroutitle{
+ width:100%;
+ position: relative;
+ top:8em;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.caroutitle p{
+  font-size: 2.5rem;
+  color: #549660;
+  font-weight: lighter;
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+.dreamhome{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  margin-left: 1em;
+  top: 3em;
+  color: white;
+}
+.dreamhome p{
+  z-index: 10;
+  font-size: 2.5rem;
+  font-weight: lighter;
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+}
+.contactform{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 78.5%;
+ padding-left: 3em;
+ background: #549660;
+}
+.contacttitle{
+  font-size: 2.5rem;
+  position: relative;
+  top:2rem;
+  display: flex;
+  justify-content: center;
+  font-weight: lighter;
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  color: #549660;
+
+}
+.contact{
+  width: 100%;
+  height: 100vh;
+  background: white;
+  position: relative;
+  top:50em;
+}
+.contactbox{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 100%;
+  height: 90%;
+  position: relative;
+  bottom: 8em;
+  gap:2em;
+}
+
+.fieldcon{
+  width: 100%;
+  padding-bottom: 1rem;
+}
+.msg{
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.msg p{
+  font-size: 1.5rem;
+  color: white;
+}
+.inputcon{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+.name,.email,.message{
+  color:white;
+}
+textarea{
+  width: 70%;
+  height:3em;
+  resize: none;
+  position: relative;
+  top:1rem;
+
+}
+.map{
+  position: relative;
+  top:12em;
+}
+.senctn{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 11em;
+  width: 100%;
+  position: relative;
+  top:1rem;
+}
+.sendbtn{
+  background: white;
+  color: #549660;
+  padding: 10px 2rem 10px 2rem;
+}
+
+footer{
+  width: 100%;
+  height: 30vh;
+  background: #549660;
+  position: relative;
+  top:50rem;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+footer > div{
+  color:white;
+}
+.footerone,.footertwo{
+  padding-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap:12px;
+}
+
+.footerone{
+  padding-left: 1rem;
+}
+.logofooter{
+  font-size: 1.2rem;
+}
+.icons{
+  display: flex;
+  gap: 1rem;
+}
+.copyright{
+  font-size: 14px;
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .background,.cover,nav {
+    width: 180%;
+  }
+  .hometext{
+    bottom:80em;
+  }
+
+  .desc{
+    width: 70%;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .title{
+    font-size: 3rem;
+  }
+  .box{
+    width:150%;
+  }
+  .sectdiv{
+    left:12em;
+  }
+
+  .servicesection{
+    width: 150%;
+    height:70vh;
+  }
+  .serv{
+    width:150%;
+    height:100%;
+  }
+  .about{
+    display: flex;
+    flex-direction: column;
+   
+    width: 150%;
+  }
+  .aboutctn{
+    padding: 1em;
+  }
+  .search{
+    width: 150%;  
+  }
+  .aboutctn{
+    position: relative;
+    left: 14em;
+    width: 60%;
+    height:50%;
+    top:2em;
+  }
+  .abtdesc{
+    position: relative;
+    top:2rem;
+  }
+  .abttest{
+    width: 80%;
+    text-align: center;
+  }
+  .abt{
+    border-radius: 80%;
+  }
+  .abtdesc{
+    padding-top: 1em;
+    font-size: 1.5em;
+  }
+
+  .carousel{
+    width: 150%;
+  }
+  .contact{
+    width: 150%;
+  }
+  iFrame{
+    height:750px;
+  }
+  .contactform{
+    height: 81.5%;
+  }
+  .fieldcon{
+    width: 120%;
+  }
+  .senctn{
+    padding-right: 5em;
+  }
+  footer{
+    width: 150%;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .footerone,.footertwo{
+    text-align: center;
+  }
+  .footerthree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+  }
+
+  
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+ .background,nav,.cover{
+  width:280%;
+ }
+ .conimg{
+  padding-left: 3rem;
+ }
+ .desc{
+  width:80%;
+  text-align: center;
+ }
+ .brand{
+  width:120%;
+  height:60%;
+ }
+.sectiontwo{
+  width: 100%;
+}
+.firstbox,.secondbox, .secondbox.boxtwo,.firstbox.boxone{
+  left:0;
+  right:0;
+  top:0;
+  width: 100%;
+}
+.box.one,.box.two,.box.three{
+  grid-template-columns: none;
+  grid-template-rows: repeat(2,1fr);
+  padding: 0;
+}
+.secondbox.boxtwo{
+  order:2;
+}
+.firstbox.boxone{
+  order: 1;
+}
+.secondboxtitle{
+  font-size: 3rem;
+}
+.secondboxsubtitle{
+  font-size: 1.5rem;
+}
+
+.servicesection{
+  position: relative;
+  top:150rem;
+  width: 250%;
+  left:3em;
+}
+.service{
+  grid-template-columns: none;
+}
+
+.about{
+  position: relative;
+  top:260rem;
+  width: 280%;
+}
+.search{
+  position: relative;
+  top:260rem;
+  width: 280%;
+}
+.srch{
+  position: relative;
+  top:25em;
+  width: 100%;
+  left:0;
+}
+.dreamhome > p{
+  font-size: 3.5rem;
+  position: relative;
+  left:2.5em;
+  top:2em;
+}
+.carousel{
+  position: relative;
+  top:260rem;
+  width: 280%;
+}
+footer{
+  position: relative;
+  top:280rem;
+}
+.contact{
+  position: relative;
+  top:330rem;
+}
+.contactbox{
+  grid-template-columns: none;
+  width: 280%;
+  
+
+}
+.contactform{
+  left:0;
+  padding-left: 2em;
+  height: 120%;
+}
+.contactform>div{
+  padding-left: 8em;
+}
+iFrame{
+  width:1010px;
+}
+.servicebottitle{
+  font-size: 3rem;
+}
+.servbotsubtitle{
+  font-size: 1.5rem;
+}
+    }
+ 
